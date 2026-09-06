@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sonu Monu Traders — Textiles, Clothing &amp; Footwear, Dhanbad</title>
+<meta name="description" content="Sonu Monu Traders — wholesale and retail trading of textiles, clothing and footwear at Govindpur, Dhanbad, Jharkhand.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --indigo:#22314F;
+    --indigo-deep:#182338;
+    --khadi:#F1EBDA;
+    --khadi-line:#DED4B8;
+    --madder:#A6402E;
+    --turmeric:#D9A441;
+    --ink:#2A2620;
+    --paper:#FBF8F0;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--khadi);
+    color:var(--ink);
+    font-family:"Work Sans", sans-serif;
+    font-size:16px;
+    line-height:1.55;
+  }
+  h1,h2,h3{
+    font-family:"Fraunces", serif;
+    margin:0;
+    color:var(--indigo-deep);
+  }
+  a{color:inherit;}
+  .wrap{max-width:960px; margin:0 auto; padding:0 28px;}
+
+  /* Top swatch bar — reference to bolt-of-fabric edge stripes */
+  .swatch-bar{height:10px; display:flex;}
+  .swatch-bar span{flex:1;}
+  .swatch-bar span:nth-child(1){background:var(--indigo);}
+  .swatch-bar span:nth-child(2){background:var(--madder);}
+  .swatch-bar span:nth-child(3){background:var(--turmeric);}
+  .swatch-bar span:nth-child(4){background:var(--indigo-deep);}
+
+  header.hero{
+    padding:64px 0 56px;
+    border-bottom:1px solid var(--khadi-line);
+  }
+  .estd{
+    font-size:13px;
+    letter-spacing:.04em;
+    color:var(--madder);
+    font-weight:600;
+    margin-bottom:14px;
+  }
+  h1.brand{
+    font-size:clamp(42px, 7vw, 68px);
+    font-weight:700;
+    line-height:1.02;
+    letter-spacing:-0.01em;
+  }
+  .tagline{
+    margin-top:18px;
+    max-width:520px;
+    font-size:18px;
+    color:#4a453b;
+  }
+  .reg-chip{
+    display:inline-flex;
+    gap:8px;
+    align-items:baseline;
+    margin-top:26px;
+    padding:8px 14px;
+    background:var(--paper);
+    border:1px solid var(--khadi-line);
+    font-size:13px;
+    font-family:"Work Sans", sans-serif;
+  }
+  .reg-chip b{color:var(--indigo-deep); font-weight:600;}
+
+  section{padding:52px 0;}
+  section.divider-top{border-top:1px solid var(--khadi-line);}
+
+  .section-label{
+    font-size:13px;
+    color:var(--madder);
+    font-weight:600;
+    margin-bottom:10px;
+  }
+  h2.section-title{
+    font-size:30px;
+    font-weight:600;
+    margin-bottom:22px;
+  }
+
+  .lines-grid{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:0;
+    border-top:1px solid var(--khadi-line);
+  }
+  .line-item{
+    padding:22px 20px 22px 0;
+    border-bottom:1px solid var(--khadi-line);
+  }
+  .line-item:not(:nth-child(3n)){border-right:1px solid var(--khadi-line); padding-right:24px;}
+  .line-item h3{
+    font-size:19px;
+    font-weight:600;
+    margin-bottom:6px;
+  }
+  .line-item p{margin:0; color:#4a453b; font-size:15px;}
+
+  .ledger{
+    background:var(--paper);
+    border:1px solid var(--khadi-line);
+  }
+  .ledger-row{
+    display:grid;
+    grid-template-columns:180px 1fr;
+    border-bottom:1px solid var(--khadi-line);
+  }
+  .ledger-row:last-child{border-bottom:none;}
+  .ledger-row .k{
+    padding:14px 16px;
+    font-size:13px;
+    color:var(--madder);
+    font-weight:600;
+    border-right:1px solid var(--khadi-line);
+    background:rgba(166,64,46,0.04);
+  }
+  .ledger-row .v{
+    padding:14px 16px;
+    font-size:15.5px;
+  }
+
+  .contact-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:36px;
+    margin-top:28px;
+  }
+  @media (max-width:680px){
+    .contact-grid{grid-template-columns:1fr;}
+    .lines-grid{grid-template-columns:1fr;}
+    .line-item{border-right:none !important; padding-right:0 !important;}
+    .ledger-row{grid-template-columns:140px 1fr;}
+  }
+  .contact-card h3{font-size:17px; margin-bottom:8px;}
+  .contact-card p{margin:2px 0; color:#4a453b;}
+  .contact-card a{text-decoration:none; border-bottom:1px solid var(--khadi-line);}
+
+  footer{
+    padding:30px 0 40px;
+    border-top:1px solid var(--khadi-line);
+    font-size:13px;
+    color:#847c68;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:8px;
+  }
+</style>
+</head>
+<body>
+
+<div class="swatch-bar"><span></span><span></span><span></span><span></span></div>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="estd">Established 2026 · Govindpur, Dhanbad</div>
+    <h1 class="brand">Sonu Monu<br>Traders</h1>
+    <p class="tagline">Wholesale and retail trading of textiles, clothing and footwear, serving stalls and markets across Dhanbad district.</p>
+    <div class="reg-chip">Udyam Registration <b>UDYAM-JH-04-0091965</b></div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <div class="section-label">What we trade</div>
+    <h2 class="section-title">Textiles, clothing &amp; footwear</h2>
+    <div class="lines-grid">
+      <div class="line-item">
+        <h3>Textiles</h3>
+        <p>Fabric by the metre for tailoring, home use and resale to local stall owners.</p>
+      </div>
+      <div class="line-item">
+        <h3>Clothing</h3>
+        <p>Ready-made garments for men, women and children, sourced for market and stall trade.</p>
+      </div>
+      <div class="line-item">
+        <h3>Footwear</h3>
+        <p>Everyday footwear stocked for retail sale across local markets and stalls.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="divider-top">
+  <div class="wrap">
+    <div class="section-label">Registration details</div>
+    <h2 class="section-title">Business information</h2>
+    <div class="ledger">
+      <div class="ledger-row"><div class="k">Enterprise</div><div class="v">Sonu Monu Traders</div></div>
+      <div class="ledger-row"><div class="k">Udyam No.</div><div class="v">UDYAM-JH-04-0091965</div></div>
+      <div class="ledger-row"><div class="k">Enterprise Type</div><div class="v">Micro (Trading)</div></div>
+      <div class="ledger-row"><div class="k">Registered Address</div><div class="v">027, Nasim Sekh House, Bhelatand, Main Road, Govindpur, Dhanbad, Jharkhand — 828109</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="divider-top" id="contact">
+  <div class="wrap">
+    <div class="section-label">Reach us</div>
+    <h2 class="section-title">Contact</h2>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <h3>Visit</h3>
+        <p>027, Nasim Sekh House</p>
+        <p>Bhelatand, Main Road, Govindpur</p>
+        <p>Dhanbad, Jharkhand — 828109</p>
+      </div>
+      <div class="contact-card">
+        <h3>Get in touch</h3>
+        <p>Phone: <a href="tel:+919296594339">+91 92965 94339</a></p>
+        <p>Email: <a href="mailto:info@sonumonutraders.store">info@sonumonutraders.store</a></p>
+        <p>CEO: <a href="mailto:ceo@sonumonutraders.store">ceo@sonumonutraders.store</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap" style="display:flex; justify-content:space-between; width:100%; flex-wrap:wrap; gap:8px;">
+    <span>© 2026 Sonu Monu Traders</span>
+    <span>Govindpur, Dhanbad, Jharkhand</span>
+  </div>
+</footer>
+
+</body>
+</html>
